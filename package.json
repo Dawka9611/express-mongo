@@ -1,0 +1,25 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "Dawka",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "mongodb": "^4.1.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
